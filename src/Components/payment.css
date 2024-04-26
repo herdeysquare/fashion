@@ -1,0 +1,59 @@
+#payment {
+  padding: 20px;
+  width: 20vw;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.payment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(239, 200, 177, 0.13);
+  height: 100vh;
+  text-align: start;
+}
+.arrow {
+  width: 1vw;
+  height: 2vh;
+  border: transparent;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+  transform: rotate(0);
+  display: inline;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  margin: 20px;
+  display: inline;
+}
+.header {
+  display: flex;
+}
+#paypal {
+  transform: rotate(0);
+  width: 20vw;
+  height: 8vh;
+  border-radius: 0;
+  border: 1px;
+}
+.cards-info {
+  margin: 15px 0px 3px 0px;
+  width: 2vw;
+  display: flex;
+  gap: 10px;
+}
+#cards-info {
+  transform: rotate(0);
+  height: 3vh;
+}
+.payment-box {
+  margin-top: 10px;
+}
+.confirm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:rgba(255, 255, 255, 1)
+}

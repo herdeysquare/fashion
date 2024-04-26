@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.card {
+  height: 60vh;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+}
+#tailoring {
+  width: 25vw;
+  transform: rotate(0);
+  height: 50vh;
+  border-radius: 0;
+}
+.card-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  bottom: 5.8vh;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+  color:white;
+  font-size: 18px;
+  font-weight: bolder;
+  padding:5px;
+  background-color: rgba(239, 200, 177, 0.55);
+}
+.btn{
+   width:2vw
+}
+.btn:hover{
+  color:chocolate
+}
