@@ -71,7 +71,7 @@ h5 {
 
 /* mobile responsiveness */
 
-@media (width<=800px) {
+@media (max-width:900px) {
   .hub {
     position: relative;
     left:8vw;
