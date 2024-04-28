@@ -26,7 +26,7 @@
   align-items: center;
   justify-content: center;
 }
-img {
+.logo{
   border: 8px solid rgba(239, 200, 177, 0.81);
   height: 22vh;
   width: 10vw;
@@ -80,7 +80,7 @@ h5 {
     transform: rotate(30.87deg);
     margin: 38vh;
   }
-  img {
+  .logo {
     height: 20vh;
     width: 35vw;
     border-radius: 50%;

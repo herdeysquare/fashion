@@ -34,3 +34,10 @@
 .btn:hover{
   color:chocolate
 }
+
+
+
+/* mobile responsiveness */
+@media (max-width:900px){
+
+}

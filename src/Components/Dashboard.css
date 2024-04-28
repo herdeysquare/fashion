@@ -4,6 +4,7 @@
 }
 .dashboard {
   background-color: rgba(239, 200, 177, 0.13);
+  /* height:100vh; */
 }
 .search {
   display: flex;
@@ -198,3 +199,31 @@ option {
     color:chocolate
   }
 img:hover{background-color: brown;}
+
+
+
+/* mobile responsiveness */
+@media (max-width:900px){
+  #location {
+    width: 8vw;
+    height: 5vh;
+    transform: rotate(0);
+  }
+  #find {
+    padding: 10px;
+    width: 40vw;
+    border-radius: 10px;
+  }
+  #client {
+    transform: rotate(0);
+    width: 8vw;
+    height: 5vh;
+  }
+  .top {
+    padding-inline: 5vw;
+  }
+  #machine1, #machine2, #machine3 {
+    height: 20vh;
+    width: 20vw;
+  }
+}

@@ -28,3 +28,8 @@
     margin: 10px;
     justify-content: center;
 }
+
+/* mobile responsiveness */
+@media (max-width:900px){
+
+}

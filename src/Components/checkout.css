@@ -79,3 +79,9 @@ h2 {
 .create-check{
     justify-content: center;
 }
+
+
+/* mobile responsiveness */
+@media (max-width:900px){
+
+}
