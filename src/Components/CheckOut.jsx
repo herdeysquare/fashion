@@ -50,7 +50,7 @@ const CheckOut = () => {
                         <p>Storm sewing Machine 8.0”</p>
                         <p>125,000</p>
                     </div>
-                    <div id='btn'> 
+                    <div id='btn'>
                         <button className='btn' onClick={btn}>-</button>{start}
                         <button className='btn' onClick={btn1}>+</button>
                     </div>
@@ -62,8 +62,8 @@ const CheckOut = () => {
                         <p>Storm sewing Machine 8.0”</p>
                         <p>125,000</p>
                     </div>
-                    <div id='btn'> 
-                    <button className='btn' onClick={btn}>-</button>{start}
+                    <div id='btn'>
+                        <button className='btn' onClick={btn}>-</button>{start}
                         <button className='btn' onClick={btn1}>+</button>
                     </div>
 
@@ -75,31 +75,31 @@ const CheckOut = () => {
                         <p>125,000</p>
                     </div>
                     <div id='btn'>
-                         <button className='btn' onClick={btn}>-</button>{start}
+                        <button className='btn' onClick={btn}>-</button>{start}
                         <button className='btn' onClick={btn1}>+</button>
                     </div>
 
 
                 </div>
-<span id='sum'>
-                <div className='total'>
-                    <p id='total'>Subtotal</p>
-                    <p id='total'>125,000</p>
-                </div>
+                <span id='sum'>
+                    <div className='total'>
+                        <p id='total'>Subtotal</p>
+                        <p id='total'>125,000</p>
+                    </div>
 
 
-                <div className='total'>
-                    <p id='total'>Shipping</p>
-                    <p id='total'>125,000</p>
-                </div>
+                    <div className='total'>
+                        <p id='total'>Shipping</p>
+                        <p id='total'>125,000</p>
+                    </div>
 
 
-                <div className='total'>
-                    <p id='total'>Grand Total</p>
-                    <p id='total'>125,000</p>
-                </div>
+                    <div className='total'>
+                        <p id='total'>Grand Total</p>
+                        <p id='total'>125,000</p>
+                    </div>
                 </span>
-                <button id='create' className='create-check' onClick={toggleEvent}>Checkout</button>
+                <button id='create' className='create-check' onClick=    {toggleEvent}>Checkout</button>
             </span>
         </div>
     )

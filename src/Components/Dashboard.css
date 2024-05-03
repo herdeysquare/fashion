@@ -1,10 +1,10 @@
 * {
   margin: 0;
   padding: 0;
+  /* overflow-x: hidden; */
 }
 .dashboard {
   background-color: rgba(239, 200, 177, 0.13);
-  /* height:100vh; */
 }
 .search {
   display: flex;
@@ -163,7 +163,7 @@ option {
   display: inline-block;
   border-bottom: 1px thin black;
 }
-.partner {
+/* .partner {
   display: flex;
   position: absolute;
   top: 242vh;
@@ -175,12 +175,12 @@ option {
   font-size: 26px;
   align-items: center;
   justify-content: space-evenly;
-}
-#txt{
+} */
+/* #txt{
     display: flex;
     flex-direction: column;
     gap:10px;
-}
+} */
 .button-below{
     display: flex;
     justify-content: space-between;
@@ -203,7 +203,7 @@ img:hover{background-color: brown;}
 
 
 /* mobile responsiveness */
-@media (max-width:700px){
+@media (max-width:900px){
   #location {
     width: 8vw;
     height: 5vh;
@@ -219,11 +219,19 @@ img:hover{background-color: brown;}
     width: 8vw;
     height: 5vh;
   }
-  .top {
+  .top .store .button-below{
     padding-inline: 5vw;
   }
   #machine1, #machine2, #machine3 {
-    height: 20vh;
-    width: 20vw;
+    height: 15vh;
+    width: 25vw;
   }
+  #cart, #card, #setting, #user {
+    width: 5vw;
+    height: 3vh;
+  }
+  .button-below{
+    margin-top: 5vh;
+}
+
 }

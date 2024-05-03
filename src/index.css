@@ -71,9 +71,9 @@ h5 {
 
 /* mobile responsiveness */
 
-@media (max-width:700px) {
+@media (max-width:900px) {
   .rectangle1{
-    background-position: center;
+    /* background-position: center; */
     background-size: cover;
   }
   .hub {
@@ -121,4 +121,5 @@ h5 {
     padding: 25px;
     color: rgba(239, 200, 177, 1);
   }
+ 
 }

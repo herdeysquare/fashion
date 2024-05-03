@@ -56,7 +56,7 @@ h2 {
 #btn {
   display: flex;
   justify-content: center;
-  /* align-items: left;   */
+  align-items: left;  
   margin-bottom: 3vh;
   position: relative;
   bottom: 3vh;
@@ -82,6 +82,31 @@ h2 {
 
 
 /* mobile responsiveness */
-@media (max-width:700px){
+@media (max-width:900px){
+  #checkout {
+    width: 90vw;
+    height:92vh;
+  }
+  #hr {
+    width: 88vw;
+    margin-inline: 2vw;
+  }
+  #tailor-check {
+    width: 16vw;
+    height: 10vh;
+}
+.btn {
+width:5vw;
+}
+.total {
+  line-height: 35px;
+}
+
+#sum {
+  width: 90vw;
+}
+.create-check{
+  justify-content: center;
+}
 
 }
