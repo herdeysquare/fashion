@@ -93,5 +93,32 @@ text-align: left;
 
 /* mobile responsiveness */
 @media (max-width:900px){
-
+    .cart{
+        padding-inline:10vw;
+       padding-top: 3vh; 
+    }
+    .img{ 
+        height: 60vh;
+        width:80vw;
+        margin-bottom:0;
+    }
+    .back{
+        width:8vw;
+        height:5vh;
+        margin-top:8vh;
+    }
+    .inside-img{
+        width:60vw;
+        height:15vh;
+        top:22vh;
+        left:8vw;
+    }
+    #features{
+        width:30vw;
+        padding:15px;
+    }
+    #apply-code{
+        width:40vw;
+        padding:10px
+    }
 }
